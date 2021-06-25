@@ -179,6 +179,7 @@ class Application(tk.Frame):
                     self.used_layers.append(point_layer)
 
                 # prohozeni kvadrantu souradnic z S-JTSK do matematickeho
+                # jeste to otestuji :-D
                 modelspace.add_point((-p.get_y(), -p.get_x()), dxfattribs={
                                      'layer': point_layer})
                 modelspace.add_text(str(p.get_z()), dxfattribs={'layer': point_layer}).set_pos(
