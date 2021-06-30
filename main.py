@@ -31,7 +31,7 @@ class Application(tk.Frame):
         self.var_output_file_name = StringVar(value="")
         self.input_file_name = ""
         self.dir_path = ""
-
+# vidis to
         # promenne zpracovani
         self.points = []
         self.used_layers = []
